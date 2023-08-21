@@ -1,0 +1,31 @@
+$negro: #000000;
+$blanco: #F6F6F6;
+$verde: #34EB9B;
+
+.headerNav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 4px 12px;
+    gap: 1000px;
+    background-color: $verde;
+    font-size: 22px;
+    font-weight: bold;
+
+    .message {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        svg {
+            width: 30px;
+            height: auto;
+        }
+    }
+}

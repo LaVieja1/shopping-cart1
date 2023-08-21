@@ -4,6 +4,7 @@ import PersonIcon from '@mui/icons-material/Person';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import IconButton from '@mui/material/IconButton';
 import Badge from '@mui/material/Badge';
+import './HeaderNav.css';
 
 export const HeaderNav = () => {
     return (
