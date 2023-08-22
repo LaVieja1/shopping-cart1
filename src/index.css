@@ -1,7 +1,9 @@
 @font-face {
-  font-family: principal;
-  src: url(./assets/fonts/Acumin\ Variable\ Concept.ttf);
-  font-family: secundaria;
+  font-family: "Acumin Variable";
+  src: url(./assets/fonts/Acumin-Variable-Concept.ttf);
+}
+@font-face {
+  font-family: "Nanum Gothic";
   src: url(./assets/fonts/NanumGothicCoding-Regular.ttf);
 }
 * {
@@ -10,5 +12,5 @@
 }
 
 body {
-  font-family: principal, serif;
+  font-family: "Acumin Variable", sans-serif;
 }/*# sourceMappingURL=index.css.map */

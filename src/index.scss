@@ -3,10 +3,12 @@ $blanco: #F6F6F6;
 $verde: #34EB9B;
 
 @font-face {
-    font-family: principal;
-    src: url(./assets/fonts/Acumin\ Variable\ Concept.ttf);
+    font-family: 'Acumin Variable';
+    src: url(./assets/fonts/Acumin-Variable-Concept.ttf);
+}
 
-    font-family: secundaria;
+@font-face {
+    font-family: 'Nanum Gothic';
     src: url(./assets/fonts/NanumGothicCoding-Regular.ttf);
 }
 
@@ -16,5 +18,5 @@ $verde: #34EB9B;
 }
 
 body {
-    font-family: principal, serif;
+    font-family: 'Acumin Variable', sans-serif;
 }

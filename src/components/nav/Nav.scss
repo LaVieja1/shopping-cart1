@@ -2,6 +2,11 @@ $negro: #000000;
 $blanco: #F6F6F6;
 $verde: #34EB9B;
 
+@font-face {
+    font-family: 'Nanum Gothic';
+    src: url(./assets/fonts/NanumGothicCoding-Regular.ttf);
+}
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -16,6 +21,7 @@ $verde: #34EB9B;
         font-weight: bold;
         font-stretch: ultra-expanded;
         font-size: 26px;
+        font-family: 'Nanum Gothic';
     }
 
     .nav-links {
