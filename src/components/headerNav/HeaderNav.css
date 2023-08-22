@@ -2,7 +2,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 4px 12px;
+  padding: 4px 100px;
   gap: 1000px;
   background-color: #34EB9B;
   font-size: 22px;
@@ -17,6 +17,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 .headerNav .links svg {
   width: 30px;

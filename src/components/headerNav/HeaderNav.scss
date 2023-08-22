@@ -6,7 +6,7 @@ $verde: #34EB9B;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 4px 12px;
+    padding: 4px 100px;
     gap: 1000px;
     background-color: $verde;
     font-size: 22px;
@@ -22,6 +22,7 @@ $verde: #34EB9B;
         display: flex;
         justify-content: center;
         align-items: center;
+        gap: 10px;
 
         svg {
             width: 30px;
