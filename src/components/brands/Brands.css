@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Acumin Variable";
+  src: url(./assets/fonts/Acumin-Variable-Concept.ttf);
+}
+@font-face {
+  font-family: "Nanum Gothic";
+  src: url(./assets/fonts/NanumGothicCoding-Regular.ttf);
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 100px;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.jordan-container .jordan-img {
+  width: 1530px;
+  height: 700px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.jordan-container .jordan {
+  padding: 15px 60px;
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  top: 72%;
+  left: 75%;
+  background-color: #34EB9B;
+  color: #000000;
+}/*# sourceMappingURL=Brands.css.map */
