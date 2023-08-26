@@ -1,3 +1,5 @@
+import jsonData from '../../data/shoes.json';
+import { Shoe } from '../shoe/Shoe';
 import './Brands.css';
 
 export const Brands = () => {
@@ -18,6 +20,13 @@ export const Brands = () => {
                 <div className='puma-container'>
                     <div className='puma button'>PUMA</div>
                 </div>
+            </div>
+            <div className='arrivals'>
+                <h2>NEW ARRIVALS</h2>
+                <div className='shoes-container'>
+                    <Shoe data={jsonData.shoes.Puma['White-Barbados-Cherry']} />
+                </div>
+                <div className='button'>VIEW ALL</div>
             </div>
         </main>
     )

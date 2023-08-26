@@ -1,0 +1,22 @@
+{
+    "shoes": {
+        "Nike": {
+
+        },
+        "Adidas": {
+
+        },
+        "Puma": {
+            "White-Barbados-Cherry" : {
+                "brand": "Puma",
+                "model": "Thundercats x RS X T3CH",
+                "name": "White Barbados Cherry",
+                "price": 110,
+                "img": "/src/assets/shoes/Thundercats-X-RS-X-T3CH-White-Barbados-Cherry.jpg"
+            }
+        },
+        "Jordan": {
+
+        }
+    }
+}

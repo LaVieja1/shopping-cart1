@@ -75,10 +75,18 @@ h2 {
   justify-content: center;
   align-items: center;
 }
-.brands-container .button {
+
+.button {
   padding: 15px 80px;
   font-size: 22px;
   font-weight: bold;
   background-color: #34EB9B;
   color: #000000;
+}
+
+.arrivals {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=Brands.css.map */
