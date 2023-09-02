@@ -1,0 +1,42 @@
+$negro: #000000;
+$blanco: #F6F6F6;
+$verde: #34EB9B;
+
+@font-face {
+    font-family: 'Acumin Variable';
+    src: url(./assets/fonts/Acumin-Variable-Concept.ttf);
+}
+
+.shoe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+
+    img {
+        max-width: 300px;
+        min-height: 200px;
+    }
+
+    .brand {
+        font-size: 18px;
+        font-weight: bolder;
+        font-family: 'Acumin Variable', sans-serif;
+        text-transform: uppercase;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        color: $blanco;
+    }
+
+    .price {
+        color: $blanco;
+    }
+}

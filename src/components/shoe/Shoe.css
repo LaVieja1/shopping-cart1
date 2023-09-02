@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Acumin Variable";
+  src: url(./assets/fonts/Acumin-Variable-Concept.ttf);
+}
+.shoe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+.shoe img {
+  max-width: 300px;
+  min-height: 200px;
+}
+.shoe .brand {
+  font-size: 18px;
+  font-weight: bolder;
+  font-family: "Acumin Variable", sans-serif;
+  text-transform: uppercase;
+}
+.shoe .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: #F6F6F6;
+}
+.shoe .price {
+  color: #F6F6F6;
+}/*# sourceMappingURL=Shoe.css.map */

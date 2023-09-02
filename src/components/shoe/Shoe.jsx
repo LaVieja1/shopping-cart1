@@ -1,4 +1,6 @@
 /* eslint-disable react/prop-types */
+import './Shoe.css';
+
 export const Shoe = (props) => {
     const { brand, model, name, price, img } = props.data;
 
@@ -10,7 +12,7 @@ export const Shoe = (props) => {
                 <p className="model">{model}</p>
                 <p className="name">{name}</p>
             </div>
-            <h3 className="price">{price}</h3>
+            <h3 className="price">${price}</h3>
         </div>
     )
 }

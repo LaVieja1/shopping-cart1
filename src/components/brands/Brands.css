@@ -6,7 +6,7 @@
   font-family: "Nanum Gothic";
   src: url(./assets/fonts/NanumGothicCoding-Regular.ttf);
 }
-main {
+.main {
   padding: 0px 100px;
   font-family: "Nanum Gothic", sans-serif;
   color: #34EB9B;
@@ -89,4 +89,41 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.arrivals .shoes-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.featured {
+  font-family: "Nanum Gothic", sans-serif;
+  color: #34EB9B;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.featured .img-container {
+  background-image: url(/src/assets/shoes/pexels-ficky-2364583.jpg);
+  background-position: 50% 28%;
+  background-size: cover;
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.featured .words {
+  padding: 0px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 40px;
+}
+.featured .button {
+  max-width: 140px;
+  margin-left: 100px;
+  text-align: center;
 }/*# sourceMappingURL=Brands.css.map */

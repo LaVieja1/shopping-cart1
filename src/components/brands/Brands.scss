@@ -12,7 +12,7 @@ $verde: #34EB9B;
     src: url(./assets/fonts/NanumGothicCoding-Regular.ttf);
 }
 
-main {
+.main {
     padding: 0px 100px;
     font-family: 'Nanum Gothic', sans-serif;
     color: $verde;
@@ -103,6 +103,43 @@ h2 {
     align-items: center;
 
     .shoes-container {
-        
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.featured {
+    font-family: 'Nanum Gothic', sans-serif;
+    color: $verde;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .img-container {
+        background-image: url(/src/assets/shoes/pexels-ficky-2364583.jpg);
+        background-position: 50% 28%; 
+        background-size: cover;
+        width: 100%;
+        min-height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .words {
+        padding: 0px 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 40px;
+    }
+
+    .button {
+        max-width: 140px;
+        margin-left: 100px;
+        text-align: center;
     }
 }
