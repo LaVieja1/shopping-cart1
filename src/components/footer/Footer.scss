@@ -1,0 +1,107 @@
+$negro: #000000;
+$blanco: #F6F6F6;
+$verde: #34EB9B;
+
+@font-face {
+    font-family: 'Acumin Variable';
+    src: url(./assets/fonts/Acumin-Variable-Concept.ttf);
+}
+
+@font-face {
+    font-family: 'Nanum Gothic';
+    src: url(./assets/fonts/NanumGothicCoding-Regular.ttf);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    border-top: 4px solid $verde;
+
+    .info {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 50px 0px;
+
+        h3 {
+            color: $verde;
+            font-weight: bold;
+        }
+
+        .about {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 30px;
+
+            .text {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                gap: 15px;
+
+                a {
+                    color: $blanco;
+                    text-decoration: none;
+                    font-size: 16px;
+                    font-weight: bold;
+                    font-family: 'Acumin Variable', sans-serif;
+
+                    &:hover {
+                        color: $verde;
+                    }
+
+                    &:visited {
+                        color: $blanco;
+                    }
+                }
+            }
+
+            .social-logos {
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+
+                svg {
+                    fill: $blanco;
+                    font-size: 2.5rem;
+                    cursor: grab;
+                }
+            }
+        }
+
+        .newsletter {
+
+            input {
+                font-family: 'Nanum Gothic', sans-serif;
+                font-size: 16px;
+                border: 2px solid $verde;
+                background-color: $negro;
+                padding: 10px 60px 10px 8px;
+            }
+
+            .button {
+                font-family: 'Nanum Gothic', sans-serif;
+                font-size: 18px;
+                padding: 10px 20px;
+            }
+        }
+    }
+
+    .pay-logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        img {
+            max-width: 60px;
+            height: auto;
+        }
+    }
+}

@@ -1,0 +1,84 @@
+@font-face {
+  font-family: "Acumin Variable";
+  src: url(./assets/fonts/Acumin-Variable-Concept.ttf);
+}
+@font-face {
+  font-family: "Nanum Gothic";
+  src: url(./assets/fonts/NanumGothicCoding-Regular.ttf);
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px;
+  border-top: 4px solid #34EB9B;
+}
+footer .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 50px 0px;
+}
+footer .info h3 {
+  color: #34EB9B;
+  font-weight: bold;
+}
+footer .info .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+footer .info .about .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+}
+footer .info .about .text a {
+  color: #F6F6F6;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Acumin Variable", sans-serif;
+}
+footer .info .about .text a:hover {
+  color: #34EB9B;
+}
+footer .info .about .text a:visited {
+  color: #F6F6F6;
+}
+footer .info .about .social-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+footer .info .about .social-logos svg {
+  fill: #F6F6F6;
+  font-size: 2.5rem;
+  cursor: grab;
+}
+footer .info .newsletter input {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 16px;
+  border: 2px solid #34EB9B;
+  background-color: #000000;
+  padding: 10px 60px 10px 8px;
+}
+footer .info .newsletter .button {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+footer .pay-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+footer .pay-logos img {
+  max-width: 60px;
+  height: auto;
+}/*# sourceMappingURL=Footer.css.map */

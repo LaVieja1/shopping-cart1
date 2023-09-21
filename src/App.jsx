@@ -4,6 +4,7 @@ import {HeaderNav} from './components/headerNav/HeaderNav';
 import { BrowserRouter } from 'react-router-dom';
 import { Nav } from './components/nav/Nav';
 import { Brands } from './components/brands/Brands';
+import { Footer } from './components/footer/Footer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <HeaderNav />
       <Nav />
       <Brands />
+      <Footer />
     </BrowserRouter>
   )
 }
