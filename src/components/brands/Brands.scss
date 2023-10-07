@@ -20,11 +20,22 @@ $verde: #34EB9B;
 
 .jordan-container {
 
+    transition: all 1s;
+    
+    &:hover {
+        background-color: #34EB9B;
+    }
+
     .jordan-img {
         width: 100%;
         max-height: 800px;
         min-height: 800px;
         object-fit: cover;
+        transition: all 1s ease-in-out;
+
+        &:hover {
+            opacity: 70%;
+        }
     }
 
     .jordan {
@@ -36,7 +47,9 @@ $verde: #34EB9B;
         left: 75%;
         background-color: $verde;
         color: $negro;
+        cursor: grab;
     }
+    
 }
 
 h2 {
@@ -62,6 +75,12 @@ h2 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        transition: all 1s ease-in-out;
+
+        &:hover {
+            transform: scale(1.03);
+            opacity: 70%;
+        }
     }
 
     .adidas-container {
@@ -74,6 +93,12 @@ h2 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        transition: all 1s ease-in-out;
+
+        &:hover {
+            transform: scale(1.03);
+            opacity: 70%;
+        }
     }
 
     .puma-container {
@@ -85,6 +110,12 @@ h2 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        transition: all 1s ease-in-out;
+
+        &:hover {
+            transform: scale(1.03);
+            opacity: 70%;
+        }
     }
 }
 
@@ -94,6 +125,7 @@ h2 {
     font-weight: bold;
     background-color: $verde;
     color: $negro;
+    cursor: grab;
 }
 
 .arrivals {

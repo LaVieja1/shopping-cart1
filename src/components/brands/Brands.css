@@ -12,12 +12,22 @@
   color: #34EB9B;
 }
 
+.jordan-container {
+  transition: all 1s;
+}
+.jordan-container:hover {
+  background-color: #34EB9B;
+}
 .jordan-container .jordan-img {
   width: 100%;
   max-height: 800px;
   min-height: 800px;
   -o-object-fit: cover;
      object-fit: cover;
+  transition: all 1s ease-in-out;
+}
+.jordan-container .jordan-img:hover {
+  opacity: 70%;
 }
 .jordan-container .jordan {
   padding: 15px 60px;
@@ -28,6 +38,7 @@
   left: 75%;
   background-color: #34EB9B;
   color: #000000;
+  cursor: grab;
 }
 
 h2 {
@@ -53,6 +64,11 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: all 1s ease-in-out;
+}
+.brands-container .nike-container:hover {
+  transform: scale(1.03);
+  opacity: 70%;
 }
 .brands-container .adidas-container {
   width: 700px;
@@ -64,6 +80,11 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: all 1s ease-in-out;
+}
+.brands-container .adidas-container:hover {
+  transform: scale(1.03);
+  opacity: 70%;
 }
 .brands-container .puma-container {
   width: 700px;
@@ -74,6 +95,11 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: all 1s ease-in-out;
+}
+.brands-container .puma-container:hover {
+  transform: scale(1.03);
+  opacity: 70%;
 }
 
 .button {
@@ -82,6 +108,7 @@ h2 {
   font-weight: bold;
   background-color: #34EB9B;
   color: #000000;
+  cursor: grab;
 }
 
 .arrivals {
