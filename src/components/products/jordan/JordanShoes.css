@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Acumin Variable";
+  src: url(./assets/fonts/Acumin-Variable-Concept.ttf);
+}
+@font-face {
+  font-family: "Nanum Gothic";
+  src: url(./assets/fonts/NanumGothicCoding-Regular.ttf);
+}
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 8fr;
+  gap: 40px;
+  padding: 40px 100px;
+}
+.main-container .refine-by {
+  padding-top: 90px;
+}
+.main-container .jordan .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.main-container .jordan .header .brand {
+  color: #34EB9B;
+  padding: 0;
+}
+.main-container .jordan .header .sort {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.main-container .jordan .header .sort p {
+  color: #F6F6F6;
+  font-size: 16px;
+}
+.main-container .jordan .header .sort select {
+  padding: 10px;
+  background-color: #34EB9B;
+  color: #000000;
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 0;
+}
+.main-container .jordan .jordan-img {
+  max-width: 100%;
+  min-height: 600px;
+  background-image: url(/src/assets/img/JordanPage.png);
+  background-position: 50% 80%;
+  background-size: cover;
+}/*# sourceMappingURL=JordanShoes.css.map */

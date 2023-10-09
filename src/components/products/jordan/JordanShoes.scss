@@ -1,0 +1,69 @@
+$negro: #000000;
+$blanco: #F6F6F6;
+$verde: #34EB9B;
+
+@font-face {
+    font-family: 'Acumin Variable';
+    src: url(./assets/fonts/Acumin-Variable-Concept.ttf);
+}
+
+@font-face {
+    font-family: 'Nanum Gothic';
+    src: url(./assets/fonts/NanumGothicCoding-Regular.ttf);
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    gap: 40px;
+    padding: 40px 100px;
+
+    .refine-by {
+        padding-top: 90px;
+    }
+
+    .jordan {
+    
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 50px;
+    
+            .brand {
+                color: $verde;
+                padding: 0;
+            }
+    
+            .sort {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+            
+                p {
+                    color: $blanco;
+                    font-size: 16px;
+                }
+    
+                select {
+                    padding: 10px;
+                    background-color: $verde;
+                    color: $negro;
+                    font-family: 'Nanum Gothic', sans-serif;
+                    font-weight: bold;
+                    font-size: 16px;
+                    border-radius: 0;
+                }
+            }
+        }
+    
+        .jordan-img {
+            max-width: 100%;
+            min-height: 600px;
+            background-image: url(/src/assets/img/JordanPage.png);
+            background-position: 50% 80%;
+            background-size: cover;
+        }
+    }
+}

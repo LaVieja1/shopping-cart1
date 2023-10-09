@@ -1,0 +1,27 @@
+$negro: #000000;
+$blanco: #F6F6F6;
+$verde: #34EB9B;
+
+@font-face {
+    font-family: 'Acumin Variable';
+    src: url(./assets/fonts/Acumin-Variable-Concept.ttf);
+}
+
+.refine-by {
+    color: $blanco;
+    font-family: 'Acumin Variable', sans-serif;
+
+    .filters {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+
+        .filter {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            min-width: 100%;
+        }
+    }
+}

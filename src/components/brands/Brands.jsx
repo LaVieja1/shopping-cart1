@@ -1,4 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
+import { Link } from 'react-router-dom';
 import jsonData from '../../data/shoes.json';
 import { Shoe } from '../shoe/Shoe';
 import './Brands.css';
@@ -9,7 +10,9 @@ export const Brands = () => {
             <div className="main">
                 <div className="jordan-container">
                     <img src='/src/assets/img/ImagenlandingPage.png' alt='jordan' className='jordan-img'></img>
-                    <div className="jordan">JORDAN</div>
+                    <Link to='/products/jordan'>
+                        <div className="jordan">JORDAN</div>
+                    </Link>
                 </div>
                 <h2 className='brands'>BRANDS</h2>
                 <div className='brands-container'>
